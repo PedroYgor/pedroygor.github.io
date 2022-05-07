@@ -180,5 +180,72 @@ a {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  
+}
+
+/* Main */
+
+.container-project, .my-projects, .recent-post {
+  margin-bottom: 30px;
+}
+
+.my-projects{
+  height: 70px;
+}
+
+.container-project {
+  display: flex;
+  gap: 30px;
+}
+
+.project {
+  padding: 15px;
+}
+
+.content-link {
+  font-size: 1.6rem;
+  font-weight: bold;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.description-project, .icons-project{
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+}
+
+.item-icon, .icons-project {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.item-icon {
+  gap: 5px;
+}
+
+.post {
+  height: 200px;
+  display: flex;
+  gap: 30px; 
+  align-items: center;
+  padding-left: 20px;
+}
+
+.post img {
+  border: none;
+}
+
+.content-post-title {
+  margin-bottom: 30px;
+}
+
+.data-post, .tag-post {
+  font-size: 1.4rem;
+}
+.post-description {
+  font-size: 1.6rem;
 }
