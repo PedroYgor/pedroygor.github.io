@@ -129,6 +129,7 @@ a {
   justify-content: center;
   align-items: center;
   gap: 15px;
+  padding-left: 5px;
 } 
 .item-technologies {
   font-style: normal;
@@ -141,7 +142,7 @@ a {
   background-color: var(--bg-techs);
   border-radius: 30px;
   width: 70px;
-  padding: 3px 10px;
+  padding: 5px;
 }
 
 /* Experiências */
