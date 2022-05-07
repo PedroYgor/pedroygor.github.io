@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;700&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --body-bg-color: #22212c;
+  --text-color: #837e9f;
+  --bg-cards: #302f3d;
+  --bg-techs: #cb92b1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 1.6rem;
+  background-color: var(--body-bg-color);
+  color: var(--text-color);
+}
+h1 {
+  font-size: 2.3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* tratando das imagens de perfil */
+.img-profile {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 100%;
+  border: 2px solid #00ff00;
+}
+
+.profile,
+.container-links,
+.technologies,
+.experiences,
+.education,
+.my-projects,
+.project,
+.recent-post h2,
+.post {
+  background-color: var(--bg-cards);
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  display: flex;
+  padding: 40px;
+}
+.container-aside {
+  flex: 1 1 25%;
+  margin-right: 60px;
+}
+.container-main {
+  flex: 1 1 75%;
+}
+
+/* Profile */
+
+.profile {
+  height: 290px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+.profile img {
+  margin-bottom: 30px;
+}
+
+.profile-cargo {
+  font-size: 1.3rem;
+}
+
+/* Links */
+
+.container-links {
+  font-size: 1.2rem;
+  line-height: 15px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-left: 15px;
+  margin-bottom: 30px;
+}
+
+.container-links .items {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Tecnologias */
+
+.technologies {
+  height: 200px;
+  margin-bottom: 30px;
+}
+
+.title-section {
+  padding-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+.list-technologies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+} 
+.item-technologies {
+  font-style: normal;
+  font-weight: bold;
+  color: #000;
+  font-size: 1rem;
+  line-height: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: var(--bg-techs);
+  border-radius: 30px;
+  width: 70px;
+  padding: 3px 10px;
+}
+
+/* Experiências */
+
+.experiences, .education {
+  margin-bottom: 30px;
+  height: 350px;
+  
+}
+
+.list-experiences {
+  padding-left: 30%;
+}
+
+.list-experiences p, .item-education .list-list {
+  font-size: 1.2rem;
+}
+
+.item-experiences {
+  line-height: 20px;
+  margin-bottom: 5px; 
+}
+
+/* Educação */
+
+.list-education {
+  padding-left: 30%;
+}
+.item-education {
+  margin-top: 10px;
+
+}
+
+.list-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+}
